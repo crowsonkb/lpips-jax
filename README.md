@@ -1,6 +1,8 @@
 # LPIPS-Jax
 Jax port of the original [PyTorch](https://github.com/richzhang/PerceptualSimilarity) implementation of [LPIPS](https://richzhang.github.io/PerceptualSimilarity/). The current version supports pretrained AlexNet and VGG16, and pretrained linear layers.
 
+**Kat experimental branch, TODO: update README**
+
 # Installation
 `pip install lpips-jax`
 

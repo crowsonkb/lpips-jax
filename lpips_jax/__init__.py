@@ -1,1 +1,1 @@
-from .lpips import LPIPS, LPIPSEvaluator
+from .lpips import LPIPS, LPIPSModel, load
