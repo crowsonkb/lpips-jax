@@ -75,7 +75,7 @@ class LPIPSModel(nn.Module):
                 d = jnp.sum(d, axis=-1, keepdims=True)
 
             if self.spatial:
-                d = jax.image.resize(d, images_0.shape, method="bilinear")
+                d = jax.image.resize(d, (*images_0.shape[:-1], 1), method="bilinear")
             else:
                 d = spatial_average(d, keepdims=True)
 
